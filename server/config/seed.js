@@ -6,6 +6,7 @@
 'use strict';
 import Thing from '../api/thing/thing.model';
 import User from '../api/user/user.model';
+import Game from '../api/game/game.model';
 
 Thing.find({}).remove()
   .then(() => {
@@ -57,3 +58,60 @@ User.find({}).remove()
       console.log('finished populating users');
     });
   });
+
+Game.find({}).remove()
+.then(() => {
+  return Game.create(
+    {
+      name: 'World of Warcraft',
+      client: 'Battle.net',
+      imageFile: 'inventory/WoW.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Diablo 3',
+      client: 'Battle.net',
+      imageFile: 'inventory/Diablo3.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Starcraft 2',
+      client: 'Battle.net',
+      imageFile: 'inventory/StarCraft2.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Heroes of the Storm',
+      client: 'Battle.net',
+      imageFile: 'inventory/HotS.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Hearthstone',
+      client: 'Battle.net',
+      imageFile: 'inventory/HearthStone.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Overwatch',
+      client: 'Battle.net',
+      imageFile: 'inventory/OverWatch.jpg',
+      playing: false,
+      message: ''
+    }
+  )
+})
+.then(() => {
+  return Game.find({});
+})
+.then((games) => {
+  console.log('Finished populating ' + games.length + ' games.');
+})
+.catch((err) => {
+  console.log('ERROR:', err);
+});
