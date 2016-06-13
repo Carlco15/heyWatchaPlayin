@@ -64,43 +64,218 @@ Game.find({}).remove()
   return Game.create(
     {
       name: 'World of Warcraft',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/WoW.png',
       playing: false,
       message: ''
     },
     {
       name: 'Diablo 3',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/Diablo3.png',
       playing: false,
       message: ''
     },
     {
       name: 'Starcraft 2',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/StarCraft2.png',
       playing: false,
       message: ''
     },
     {
       name: 'Heroes of the Storm',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/HotS.png',
       playing: false,
       message: ''
     },
     {
       name: 'Hearthstone',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/HearthStone.png',
       playing: false,
       message: ''
     },
     {
       name: 'Overwatch',
-      client: 'Battle.net',
+      platform: 'Windows',
       imageFile: 'inventory/OverWatch.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'League of Legends',
+      platform: 'Windows',
+      imageFile: 'inventory/LoL.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Counter Strike: Global Offensive',
+      platform: 'Windows',
+      imageFile: 'inventory/CSGO.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Team Fortress 2',
+      platform: 'Windows',
+      imageFile: 'inventory/TF2.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Grand Theft Auot V',
+      platform: 'Windows',
+      imageFile: 'inventory/GTAV.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Grand Theft Auot V',
+      platform: 'Xbox',
+      imageFile: 'inventory/GTAV.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Grand Theft Auot V',
+      platform: 'PlayStation',
+      imageFile: 'inventory/GTAV.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Minecraft',
+      platform: 'Windows',
+      imageFile: 'inventory/Minecraft.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Minecraft',
+      platform: 'OS X',
+      imageFile: 'inventory/Minecraft.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Minecraft',
+      platform: 'Xbox',
+      imageFile: 'inventory/Minecraft.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Minecraft',
+      platform: 'PlayStation',
+      imageFile: 'inventory/Minecraft.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Minecraft',
+      platform: 'Wii U',
+      imageFile: 'inventory/Minecraft.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Dota 2',
+      platform: 'Windows',
+      imageFile: 'inventory/Dota2.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Dota 2',
+      platform: 'OS X',
+      imageFile: 'inventory/Dota2.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Destiny',
+      platform: 'Xbox',
+      imageFile: 'inventory/Destiny.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Destiny',
+      platform: 'PlayStation',
+      imageFile: 'inventory/Destiny.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Call of Duty: Black Ops 3',
+      platform: 'Windows',
+      imageFile: 'inventory/CoD.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Call of Duty: Black Ops 3',
+      platform: 'Xbox',
+      imageFile: 'inventory/CoD.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Call of Duty: Black Ops 3',
+      platform: 'PlayStation',
+      imageFile: 'inventory/CoD.jpg',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Rocket League',
+      platform: 'Windows',
+      imageFile: 'inventory/RocketLeauge.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Rocket League',
+      platform: 'OS X',
+      imageFile: 'inventory/RocketLeauge.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Rocket League',
+      platform: 'Xbox',
+      imageFile: 'inventory/RocketLeauge.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Rocket League',
+      platform: 'PlayStation',
+      imageFile: 'inventory/RocketLeauge.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Star Wars Battlefront',
+      platform: 'Windows',
+      imageFile: 'inventory/SWBF.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Star Wars Battlefront',
+      platform: 'Xbox',
+      imageFile: 'inventory/SWBF.png',
+      playing: false,
+      message: ''
+    },
+    {
+      name: 'Star Wars Battlefront',
+      platform: 'PlayStation',
+      imageFile: 'inventory/SWBF.png',
       playing: false,
       message: ''
     }
