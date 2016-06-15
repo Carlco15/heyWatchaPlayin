@@ -4,6 +4,7 @@ import crypto from 'crypto';
 import mongoose from 'mongoose';
 mongoose.Promise = require('bluebird');
 import {Schema} from 'mongoose';
+import PlayingGame from '../playing/playinggame.model';
 
 const authTypes = ['github', 'twitter', 'facebook', 'google'];
 
@@ -37,7 +38,8 @@ var UserSchema = new Schema({
   provider: String,
   salt: String,
   facebook: {},
-  github: {}
+  github: {},
+  playing: [PlayingGame.schema]
 });
 
 /**
