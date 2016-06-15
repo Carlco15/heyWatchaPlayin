@@ -100,7 +100,71 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    color: #81BEF7;
   }
+}
+
+/* Fade in and out animation for logos */
+@keyframes fadeLogo {
+  6% {
+    background-image: url(../assets/images/inventory/CoD.jpg);
+  }
+  12% {
+    background-image: url(../assets/images/inventory/CSGO.jpg);
+  }
+  18% {
+    background-image: url(../assets/images/inventory/Destiny.jpg);
+  }
+  24% {
+    background-image: url(../assets/images/inventory/Diablo3.png);
+  }
+  30% {
+    background-image: url(../assets/images/inventory/Dota2.png);
+  }
+  36% {
+    background-image: url(../assets/images/inventory/GTAV.png);
+  }
+  42% {
+    background-image: url(../assets/images/inventory/HearthStone.png);
+  }
+  48% {
+    background-image: url(../assets/images/inventory/HotS.png);
+  }
+  54% {
+    background-image: url(../assets/images/inventory/LoL.jpg);
+  }
+  60% {
+    background-image: url(../assets/images/inventory/Minecraft.jpg);
+  }
+  66% {
+    background-image: url(../assets/images/inventory/OverWatch.jpg);
+  }
+  72% {
+    background-image: url(../assets/images/inventory/RocketLeague.png);
+  }
+  78% {
+    background-image: url(../assets/images/inventory/StarCraft2.png);
+  }
+  84% {
+    background-image: url(../assets/images/inventory/SWBF.png);
+  }
+  90% {
+    background-image: url(../assets/images/inventory/TF2.png);
+  }
+  96% {
+    background-image: url(../assets/images/inventory/WoW.jpg);
+  }
+  100% {
+    background-image: url(../assets/images/inventory/HWP.gif);
+  }
+}
+
+.logos {
+  animation-duration: 60000ms;
+  animation-name: fadeLogo;
+  animation-iteration-count: infinite;
+  padding-top: 15em;
+  padding-bottom: 15em;
 }
 
 // Component styles are injected through grunt

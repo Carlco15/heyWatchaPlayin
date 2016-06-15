@@ -2,7 +2,7 @@
   <h2>Games I'm Currently Playing / Am Up to Play:</h2>
   <ul>
     <li class="playing animate-playing" ng-repeat="game in $ctrl.playing">
-      <span>{{ ' Playing ' + game.game.name + ' as a party of ' + game.qty }}</span>
+      <span>{{ game.game.name + ' with ' + (game.qty - 1) + ' friends '}}</span>
       <button class="btn btn-danger btn-xs" ng-click="$ctrl.removeGame(game)">Remove Game</button>
     </li>
   </ul>
