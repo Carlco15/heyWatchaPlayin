@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('heyWatchaPlayin')
+angular.module('heyWatchaPlayinApp')
   .service('playingService', function ($http, Auth) {
 
     var that = this;

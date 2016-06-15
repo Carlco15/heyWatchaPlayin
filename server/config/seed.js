@@ -126,21 +126,21 @@ Game.find({}).remove()
       message: ''
     },
     {
-      name: 'Grand Theft Auot V',
+      name: 'Grand Theft Auto V',
       platform: 'Windows',
       imageFile: 'inventory/GTAV.png',
       playing: false,
       message: ''
     },
     {
-      name: 'Grand Theft Auot V',
+      name: 'Grand Theft Auto V',
       platform: 'Xbox',
       imageFile: 'inventory/GTAV.png',
       playing: false,
       message: ''
     },
     {
-      name: 'Grand Theft Auot V',
+      name: 'Grand Theft Auto V',
       platform: 'PlayStation',
       imageFile: 'inventory/GTAV.png',
       playing: false,
@@ -233,28 +233,28 @@ Game.find({}).remove()
     {
       name: 'Rocket League',
       platform: 'Windows',
-      imageFile: 'inventory/RocketLeauge.png',
+      imageFile: 'inventory/RocketLeague.png',
       playing: false,
       message: ''
     },
     {
       name: 'Rocket League',
       platform: 'OS X',
-      imageFile: 'inventory/RocketLeauge.png',
+      imageFile: 'inventory/RocketLeague.png',
       playing: false,
       message: ''
     },
     {
       name: 'Rocket League',
       platform: 'Xbox',
-      imageFile: 'inventory/RocketLeauge.png',
+      imageFile: 'inventory/RocketLeague.png',
       playing: false,
       message: ''
     },
     {
       name: 'Rocket League',
       platform: 'PlayStation',
-      imageFile: 'inventory/RocketLeauge.png',
+      imageFile: 'inventory/RocketLeague.png',
       playing: false,
       message: ''
     },

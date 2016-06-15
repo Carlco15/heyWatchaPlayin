@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('heyWatchaPlayin')
+angular.module('heyWatchaPlayinApp')
   .service('gameService', function($http) {
 
     var svc = this;

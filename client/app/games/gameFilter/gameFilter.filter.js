@@ -12,9 +12,9 @@ angular.module('heyWatchaPlayinApp')
         out: []
       };
       angular.forEach(inventory, function (game) {
-        if (isMatch(game.category   , this.searchText) ||
+        if (isMatch(game.platform   , this.searchText) ||
             isMatch(game.name       , this.searchText) ||
-            isMatch(game.description, this.searchText) ) {
+            isMatch(game.message    , this.searchText) ) {
           this.out.push(game);
         }
       }, games);

@@ -102,7 +102,7 @@ class GamesComponent {
   }
 }
 
-angular.module('gaCampingStoreApp')
+angular.module('heyWatchaPlayinApp')
   .component('games', {
     templateUrl: 'app/games/games.html',
     controller: GamesComponent
